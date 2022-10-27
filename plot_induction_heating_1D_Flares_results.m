@@ -37,8 +37,8 @@ with_intrinsic_field = 0;
 model_idx = 1;
 
 %%
-load('TRAPPIST-1/conductivity_models_1D_and_homogeneous.mat');
-load(sprintf('TRAPPIST-1/TRAPPIST1_heating_intrinsic_field=%d_model_idx=%d.mat',with_intrinsic_field,model_idx));
+load('data/conductivity_models_1D_and_homogeneous.mat');
+load(sprintf('data/TRAPPIST1_heating_intrinsic_field=%d_model_idx=%d.mat',with_intrinsic_field,model_idx));
 
 n_planets = length(planet_data);
 
